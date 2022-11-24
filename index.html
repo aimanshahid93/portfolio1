@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/6e5ff7cc7b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Aiman's Portfolio</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img
+            src="https://logos.textgiraffe.com/logos/logo-name/Aiman-designstyle-boots-m.png"
+            class="logo"
+          />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Full Stack Developer</p>
+          <h1>Hi,I'm <span>Aiman</span> Shahid</h1>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVTOnuOeclDbFBD41NSDsIA4Rz15kgUKPriw&usqp=CAU"
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              A hardworking and commited Electronic and Communication Engineer
+              aspiring to pursue a challenging career in the field of Data
+              Science!!
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web interfaces</li>
+                <li>
+                  <span>Web Development</span><br />Designing Web interfaces
+                </li>
+                <li>
+                  <span>App Development</span><br />Building Android/Ios apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li><span>2022</span><br />Fresher</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>2022</span><br />Full Stack Development Course from
+                  IIT-M
+                </li>
+                <li>
+                  <span>2018</span><br />MBA(Finance) from Stanley College Of
+                  Engineering and Technology For Women
+                </li>
+                <li>
+                  <span>2016</span><br />BE(ECE) from Stanley College Of
+                  Engineering and Technology For Women
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Next section  -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-titles">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga
+              dolorum, eos, sed consequatur corporis officiis optio deserunt
+              dolor excepturi quisquam aliquid natus esse similique? Numquam
+              eius ex nulla itaque doloremque.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/Ux DEsign</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga
+              dolorum, eos, sed consequatur corporis officiis optio deserunt
+              dolor excepturi quisquam aliquid natus esse similique? Numquam
+              eius ex nulla itaque doloremque.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>APP Design</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga
+              dolorum, eos, sed consequatur corporis officiis optio deserunt
+              dolor excepturi quisquam aliquid natus esse similique? Numquam
+              eius ex nulla itaque doloremque.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- portfolio -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-titles">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img
+              src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGhvbmUlMjBhcHBzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            />
+            <div class="layer">
+              <h3>Movies App</h3>
+              <p>
+                The app focuses on the movies produced by a leading production
+                company of India.It enables the viewers to view its trailers and
+                give ratings.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGhvbmUlMjBhcHBzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            />
+            <div class="layer">
+              <h3>Rides App</h3>
+              <p>
+                The app focuses on the movies produced by a leading production
+                company of India.It enables the viewers to view its trailers and
+                give ratings.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGhvbmUlMjBhcHBzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                The app focuses on the movies produced by a leading production
+                company of India.It enables the viewers to view its trailers and
+                give ratings.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!-- ////contact details///////// -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>aimanshahid5003@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i>+91 6303359644</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=100080041041598"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/aiman-shahid-8b5944104/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://twitter.com/aimanshahid93"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/aiman.shahid93/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+            <a href="" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                placeholder="Enter Your Name"
+                name="Name"
+                required
+              />
+              <input
+                type="email"
+                placeholder="Enter Your Email"
+                name="Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Enter your message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Aiman Shahid</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycby14pNbyGFbm6qH39AnooSbfkTTTGueeDTyI5qsKbhFX8Rht7alC_EUAxKRVK03cuI/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
